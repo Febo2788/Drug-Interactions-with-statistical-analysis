@@ -1,7 +1,7 @@
 # Drug-Drug Interaction Prediction with Statistical Analysis
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensthece.org/licenses/MIT)
 
 A comprehensive machine learning pipeline for predicting drug-drug interactions using Graph Neural Networks (GNNs) with rigorous statistical validation. This project combines state-of-the-art deep learning techniques with robust statistical analysis to identify potentially harmful drug combinations.
 
@@ -34,7 +34,7 @@ The system processes molecular structure data (SMILES notation) and builds inter
 
 ### Statistical Methodology
 
-Our approach prioritizes statistical rigor through:
+the approach prioritizes statistical rigor through:
 
 - **Stratified Cross-Validation**: Ensures balanced representation across drug classes
 - **Bootstrap Confidence Intervals**: Quantifies prediction uncertainty
@@ -61,7 +61,7 @@ Target performance benchmarks:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Drug-Drug_Interaction_Prediction.git
+git clone https://github.com/ytheusername/Drug-Drug_Interaction_Prediction.git
 cd Drug-Drug_Interaction_Prediction
 
 # Install dependencies
@@ -138,7 +138,7 @@ Drug-Drug_Interaction_Prediction/
 └── requirements.txt           # Python dependencies
 ```
 
-## 📈 Data Sources
+## 📈 Data Stheces
 
 ### Primary Databases
 - **DrugBank**: Comprehensive drug information and known interactions
@@ -148,7 +148,7 @@ Drug-Drug_Interaction_Prediction/
 
 ### External Validation
 - **TWOSIDES**: Large-scale drug interaction database
-- **SIDER**: Side effect resource for drug interactions
+- **SIDER**: Side effect resthece for drug interactions
 
 ## 🧪 Model Architecture
 
@@ -180,12 +180,12 @@ Drug-Drug_Interaction_Prediction/
 
 ### 📈 Visualization Results
 
-Our comprehensive analysis generated four key visualization suites that demonstrate the model's effectiveness and provide insights into drug interaction patterns:
+the comprehensive analysis generated fthe key visualization suites that demonstrate the model's effectiveness and provide insights into drug interaction patterns:
 
 #### Model Performance Analysis
 <img src="results/figures/model_performance_analysis.png" width="600" alt="Model Performance Analysis">
 
-This visualization suite demonstrates our model's predictive capabilities across multiple metrics. The analysis includes ROC curves showing Area Under the Curve (AUC) performance, precision-recall curves for imbalanced data evaluation, and confusion matrices for classification accuracy. The ensemble approach combining GCN, GAT, and GraphSAGE architectures achieves superior performance compared to individual models, with statistical significance testing confirming the improvements. This comprehensive evaluation ensures our predictions are both accurate and reliable for clinical applications.
+This visualization suite demonstrates the model's predictive capabilities across multiple metrics. The analysis includes ROC curves showing Area Under the Curve (AUC) performance, precision-recall curves for imbalanced data evaluation, and confusion matrices for classification accuracy. The ensemble approach combining GCN, GAT, and GraphSAGE architectures achieves superior performance compared to individual models, with statistical significance testing confirming the improvements. This comprehensive evaluation ensures the predictions are both accurate and reliable for clinical applications.
 
 #### Network Analysis
 <img src="results/figures/network_analysis.png" width="600" alt="Drug Interaction Network Analysis">
@@ -200,7 +200,7 @@ This detailed molecular analysis examines the physicochemical properties that dr
 #### Statistical Validation
 <img src="results/figures/statistical_validation.png" width="600" alt="Statistical Validation Results">
 
-Our rigorous statistical validation ensures that all reported findings are scientifically sound and clinically meaningful. This analysis includes bootstrap confidence intervals for prediction uncertainty, multiple testing corrections to control false discovery rates, power analysis to validate sample sizes, and temporal validation using time-split data. The Benjamini-Hochberg procedure controls for multiple comparisons, while permutation testing provides non-parametric significance validation. These statistical safeguards ensure that our interaction predictions meet the high standards required for potential clinical implementation.
+the rigorous statistical validation ensures that all reported findings are scientifically sound and clinically meaningful. This analysis includes bootstrap confidence intervals for prediction uncertainty, multiple testing corrections to control false discovery rates, power analysis to validate sample sizes, and temporal validation using time-split data. The Benjamini-Hochberg procedure controls for multiple comparisons, while permutation testing provides non-parametric significance validation. These statistical safeguards ensure that the interaction predictions meet the high standards required for potential clinical implementation.
 
 ## 🔬 Key Findings
 
@@ -215,7 +215,7 @@ We welcome contributions!
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
+3. Commit ythe changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
@@ -224,7 +224,7 @@ We welcome contributions!
 This project is licensed under the MIT License.
 ## 📚 Citation
 
-If you use this work in your research, please cite:
+If you use this work in ythe research, please cite:
 
 ```bibtex
 @misc{ddi_prediction_2024,
