@@ -188,8 +188,7 @@ We welcome contributions!
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License.
 ## 📚 Citation
 
 If you use this work in your research, please cite:
