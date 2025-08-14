@@ -11,7 +11,16 @@ A comprehensive machine learning pipeline for predicting drug-drug interactions 
 
 ## 🎯 Project Overview
 
-Drug-drug interactions (DDIs) represent a critical challenge in pharmacovigilance, causing approximately 3-5% of all hospital admissions. This project develops a scalable, interpretable machine learning system to predict DDIs using molecular structure data and interaction networks.
+Drug-drug interactions (DDIs) represent a critical challenge in pharmacovigilance, causing approximately 3-5% of all hospital admissions and contributing to over 125,000 deaths annually in the United States alone. When patients take multiple medications simultaneously (polypharmacy), the risk of adverse drug events increases exponentially, particularly in elderly populations where patients often take 5+ medications daily.
+
+This project develops a comprehensive, scalable machine learning system that predicts potentially harmful drug-drug interactions before they occur in clinical settings. By combining state-of-the-art Graph Neural Networks with rigorous statistical validation, we create an early warning system that can:
+
+- **Predict Unknown Interactions**: Identify potentially dangerous drug combinations that haven't been clinically documented
+- **Quantify Risk Levels**: Provide confidence intervals and severity scores for predicted interactions
+- **Support Clinical Decision-Making**: Offer real-time predictions through web and API interfaces
+- **Enable Personalized Medicine**: Account for individual patient factors and drug metabolism profiles
+
+The system processes molecular structure data (SMILES notation) and builds interaction networks to understand both the chemical properties of drugs and their complex biological relationships. This dual approach captures both direct molecular mechanisms and indirect pathway interactions that traditional rule-based systems often miss.
 
 ### Key Features
 
@@ -171,19 +180,27 @@ Drug-Drug_Interaction_Prediction/
 
 ### 📈 Visualization Results
 
-Our comprehensive analysis generated four key visualization suites:
+Our comprehensive analysis generated four key visualization suites that demonstrate the model's effectiveness and provide insights into drug interaction patterns:
 
-**Model Performance Analysis**
+#### Model Performance Analysis
 <img src="results/figures/model_performance_analysis.png" width="600" alt="Model Performance Analysis">
 
-**Network Analysis**
+This visualization suite demonstrates our model's predictive capabilities across multiple metrics. The analysis includes ROC curves showing Area Under the Curve (AUC) performance, precision-recall curves for imbalanced data evaluation, and confusion matrices for classification accuracy. The ensemble approach combining GCN, GAT, and GraphSAGE architectures achieves superior performance compared to individual models, with statistical significance testing confirming the improvements. This comprehensive evaluation ensures our predictions are both accurate and reliable for clinical applications.
+
+#### Network Analysis
 <img src="results/figures/network_analysis.png" width="600" alt="Drug Interaction Network Analysis">
 
-**Molecular Analysis**
+The network analysis reveals the complex topology of drug-drug interactions, highlighting critical patterns in how medications interact at a system level. Node centrality measures identify "hub" drugs that participate in many interactions (often requiring special monitoring), while community detection algorithms reveal clusters of drugs with similar interaction profiles. Edge weights represent interaction severity, and the network structure helps identify potential cascade effects where one interaction might trigger others. This visualization is crucial for understanding polypharmacy risks and optimizing medication regimens.
+
+#### Molecular Properties Analysis
 <img src="results/figures/molecular_analysis.png" width="800" alt="Molecular Properties Analysis">
 
-**Statistical Validation**
+This detailed molecular analysis examines the physicochemical properties that drive drug interactions. The six-panel distribution analysis covers molecular weight, lipophilicity (LogP), hydrogen bonding capacity, topological polar surface area (TPSA), and drug-likeness scores. These properties directly influence how drugs are absorbed, distributed, metabolized, and excreted (ADME), which in turn affects interaction potential. The statistical annotations (mean, median, standard deviation) help identify outlier drugs that may have unusual interaction profiles, while Lipinski's Rule of Five compliance indicates drug-like behavior.
+
+#### Statistical Validation
 <img src="results/figures/statistical_validation.png" width="600" alt="Statistical Validation Results">
+
+Our rigorous statistical validation ensures that all reported findings are scientifically sound and clinically meaningful. This analysis includes bootstrap confidence intervals for prediction uncertainty, multiple testing corrections to control false discovery rates, power analysis to validate sample sizes, and temporal validation using time-split data. The Benjamini-Hochberg procedure controls for multiple comparisons, while permutation testing provides non-parametric significance validation. These statistical safeguards ensure that our interaction predictions meet the high standards required for potential clinical implementation.
 
 ## 🔬 Key Findings
 
