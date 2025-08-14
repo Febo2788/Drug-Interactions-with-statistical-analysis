@@ -1,0 +1,16 @@
+drug1_name,drug2_name,interaction_description,severity,mechanism,evidence_level
+Warfarin,Aspirin,Increased risk of bleeding,Major,Pharmacodynamic synergism,High
+Simvastatin,Diltiazem,Increased risk of myopathy,Moderate,CYP3A4 inhibition,High
+Metformin,Furosemide,Risk of lactic acidosis,Major,Renal clearance reduction,Medium
+Digoxin,Amiodarone,Increased digoxin levels,Major,P-glycoprotein inhibition,High
+Phenytoin,Omeprazole,Altered phenytoin metabolism,Moderate,CYP2C19 interaction,Medium
+Lithium,ACE_inhibitor,Lithium toxicity risk,Major,Reduced renal clearance,High
+Sildenafil,Nitrates,Severe hypotension,Contraindicated,Nitric oxide pathway,High
+Theophylline,Ciprofloxacin,Theophylline toxicity,Major,CYP1A2 inhibition,High
+Clopidogrel,Omeprazole,Reduced antiplatelet effect,Moderate,CYP2C19 inhibition,High
+Tramadol,Sertraline,Serotonin syndrome risk,Major,Serotonergic synergism,Medium
+Allopurinol,Azathioprine,Severe bone marrow suppression,Contraindicated,TPMT enzyme inhibition,High
+Carbamazepine,Oral_contraceptives,Contraceptive failure,Major,CYP3A4 induction,High
+Ketoconazole,Terfenadine,QT prolongation,Contraindicated,CYP3A4 inhibition,High
+Insulin,Alcohol,Hypoglycemia risk,Major,Additive glucose lowering,Medium
+Clarithromycin,Statins,Rhabdomyolysis risk,Major,CYP3A4 inhibition,High

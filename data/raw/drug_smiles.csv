@@ -1,0 +1,11 @@
+drug_name,smiles,molecular_weight,logp,hbd,hba
+Warfarin,CC(=O)CC(c1ccccc1)c2c(O)c3ccccc3oc2=O,308.3,2.7,1,5
+Aspirin,CC(=O)Oc1ccccc1C(=O)O,180.2,1.2,1,4
+Simvastatin,CCC(C)(C)C(=O)O[C@H]1CC[C@@H]2[C@@]1(C)CC[C@H]1[C@H]2CC=C2[C@@]1(C)CC[C@@H](C[C@@H]2O)OC(=O)C=Cc1ccc(F)cc1,418.6,4.7,2,5
+Diltiazem,CNc1nc(N)nc(Sc2ccccn2)n1,414.5,2.8,1,7
+Metformin,CN(C)C(=N)N=C(N)N,129.2,-2.6,4,2
+Furosemide,NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl,330.7,2.0,3,6
+Digoxin,CC1OC(OC2CCC3(C)C(CCC4C3CC(O)C3(C)C4CCC3C3CC(OC4OC(C)C(O)C(O)C4O)CC(C)O3)C2)C(O)C(O)C1O,780.9,-0.2,8,14
+Amiodarone,CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1,645.3,7.6,0,4
+Phenytoin,C1=CC=C(C=C1)C2C(=O)NC(=O)N2C3=CC=CC=C3,252.3,2.5,2,2
+Omeprazole,COc1ccc2nc(CS(=O)c3ncc(C)c(OC)c3C)[nH]c2c1,345.4,2.2,1,6

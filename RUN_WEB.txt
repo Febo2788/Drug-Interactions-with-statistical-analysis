@@ -1,0 +1,16 @@
+🌐 WEB INTERFACE QUICK START
+
+Option 1 (Recommended):
+python launch_web.py
+
+Option 2 (Manual):
+streamlit run web_app.py
+
+Option 3 (Module):
+python -m streamlit run web_app.py
+
+Then open: http://localhost:8501
+
+Requirements: streamlit (pip install streamlit)
+
+✅ Web interface is production-ready!
