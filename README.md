@@ -169,6 +169,22 @@ Drug-Drug_Interaction_Prediction/
 - Effect sizes reported with 95% confidence intervals
 - Power analysis confirms adequate sample size for detecting clinically relevant effects
 
+### 📈 Visualization Results
+
+Our comprehensive analysis generated four key visualization suites:
+
+**Model Performance Analysis**
+<img src="results/figures/model_performance_analysis.png" width="600" alt="Model Performance Analysis">
+
+**Network Analysis**
+<img src="results/figures/network_analysis.png" width="600" alt="Drug Interaction Network Analysis">
+
+**Molecular Analysis**
+<img src="results/figures/molecular_analysis.png" width="800" alt="Molecular Properties Analysis">
+
+**Statistical Validation**
+<img src="results/figures/statistical_validation.png" width="600" alt="Statistical Validation Results">
+
 ## 🔬 Key Findings
 
 1. **Molecular Similarity**: Morgan fingerprints provide strongest predictive signal
