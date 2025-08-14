@@ -178,7 +178,7 @@ Drug-Drug_Interaction_Prediction/
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! 
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
